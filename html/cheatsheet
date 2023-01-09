@@ -1,0 +1,20 @@
+<!-- HTML Cheatsheet -->
+<!-- Sceleton of web page -->
+<html>
+<!-- header area and seo -->
+<header>
+<title>page title here </title>
+
+
+</header>
+<main>
+<body>
+<nav></nav>
+</body>
+<section>
+<article></article>
+
+</section>
+</main>
+<fooer></footer>
+</htlm>
