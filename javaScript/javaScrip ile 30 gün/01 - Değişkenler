@@ -1,0 +1,9 @@
+// Değişkenler "var", "let", "const" kelimeleriyle tanımlanır. Detaylar Wiki Bölümünde
+let firstName = "ilk İsim"; // string
+var lastName = "Soy isim";  // string
+let num = 10;               // number
+let isTrue = true           // boolean
+
+// değişkenler toplu olarak da tanımlanabilir
+
+let name = "Bob", lastName = "Sponge", city = "BikiniBottom";
