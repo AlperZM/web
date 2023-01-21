@@ -1,0 +1,5 @@
+let name = "John Doe";   // String,
+let age = 20;            // Number,
+let isAdmin = true;      // boolean,
+let coffe = null;        // nullish / empty variable,
+let tea = undefined;     // undefined,
