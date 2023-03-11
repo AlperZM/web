@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+#frame {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 0 teal;
+  margin: 20px;
+  padding: 10px;
+}
+
+#income {
+  position: absolute;
+  width: 200px;
+  height: 120px;
+}
+
+.button {
+  width: 90px;
+  height: 25px;
+  background: #baffb4;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #fffda2;
+  transition: all 0.4s ease;
+  box-shadow: 5px 5px 8px 5px #baffb4;
+}
+
+fieldset {
+  border: 1px solid teal;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+input {
+  caret-color: red;
+  margin: 10px;
+}
+
+#wallet {
+  position: absolute;
+  width: 360px;
+  height: 120px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+}
+
+.header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  margin: 10px;
+  color: #36ae7c;
+}
+
+.result {
+  font-size: 18px;
+  bottom: 0px;
+}
+
+#spend {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  top: 250px;
+}
+
+#table {
+  position: absolute;
+  width: 360px;
+  height: 40px;
+  top: 250px;
+  right: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 18px;
+}
+
+#details {
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  top: 290px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  padding: 5px;
+}
+
+.row {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
