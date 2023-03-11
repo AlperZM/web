@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+body {
+}
+
+#frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 400px;
+	margin: 0;
+	background: radial-gradient(
+		circle at 50% 100%,
+		rgba(240, 93, 33, 0.8) 10%,
+		rgba(240, 136, 86, 0.5) 22%,
+		rgba(242, 235, 157, 0.9) 35%,
+		rgba(144, 186, 230, 0.9) 100%
+	);
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px 0px teal;
+	font-family: "Caveat", cursive;
+	overflow: hidden;
+}
+#date {
+	position: absolute;
+	margin: 1rem;
+	right: 1rem;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+#adress {
+	position: absolute;
+	margin: 1rem;
+	font-size: 1.5rem;
+}
+
+#desc {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+#info {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	padding: 0.5rem;
+	width: 300px;
+}
+
+.detils {
+	width: 300px;
+	position: absolute;
+	margin: 0.5rem;
+}
+
+.head {
+	left: 0;
+	margin: 0.5rem;
+}
+
+.time {
+	position: absolute;
+	right: 10%;
+}
+
+#time-zone {
+	position: relative;
+	top: 160px;
+	left: 10px;
+	padding: 5px;
+	width: 380px;
+	height: 200px;
+}
+
+#week,
+#detailed {
+	display: flex;
+}
+.days {
+	font-size: 15px;
+}
+
+.divider {
+	width: 2px;
+	height: 50px;
+	background-color: teal;
+	margin: 5px;
+}
+#detailed {
+	display: flex;
+	margin: 20px;
+	padding-top: 10px;
+}
+.hours {
+	font-size: 15px;
+	font-weight: 400;
+}
+#buttons {
+	display: flex;
+	justify-content: space-around;
+}
+.btn {
+	position: relative;
+	background-color: #e8cb3a;
+	border: 1px #82aae3 solid;
+	border-radius: 20px;
+	padding: 5px;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	cursor: pointer;
+	background-color: #91d8e4;
+	border: 1px solid #91d8e4;
+	transition: all 0.5s ease;
+}
