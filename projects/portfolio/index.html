@@ -25,3 +25,95 @@
 </main>
 
 <footer></footer>
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  width: 100%;
+  height: 3em;
+  justify-content: space-between;
+  align-items: center;
+  background: #37306B;
+  padding: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  justify-content: start;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+.navigation a:hover {
+  color: green;
+  font-size: 24px;
+  transition: all 0.5s ease;
+}
+
+.navigation a:visited {
+  color: red;
+  font-size 20px;
+}
+
+#searchInput {
+  margin: 5px;
+}
+
+.hero {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.contact{
+  position: absolute;
+  top: 15%;
+  width: 110px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.contact:hover{
+  background: #66347F;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.desc{
+position: absolute;
+top: 25%;
+font-size: 20px;
+font-weight: 600;
+color: #fff
+}
+.red{
+  width: 100%;
+  height: 30vh;
+  background: red;
+  z-index: -1;
+  animation: slide 0.5s ease 1s;
+}
+.blue{
+  width: 100%;
+  height: 30vh;
+  background: blue;
+  z-index: -1;
+}
+.green{
+  width: 100%;
+  height: 30vh;
+  background: green;
+  z-index: -1;
+}
+
+
+
+</style>
