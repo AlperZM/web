@@ -1,0 +1,171 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #00235b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  grid-column: 1;
+}
+
+#logo img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #98dfd6;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+#navigation a:hover {
+  color: #ffdd83;
+}
+
+#navigation form {
+  margin-right: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-input {
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s linear;
+}
+
+#search-input:focus {
+  caret-color: red;
+  transform: scale(1.2);
+  transition: all 0.4s linear;
+}
+
+#search-bar i {
+  color: #98dfd6;
+  font-size: 20px;
+}
+
+#search-btn {
+  border: none;
+  background-color: #00235b;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+}
+
+#search-btn:hover {
+  transform: scale(1.1);
+  background-color: #e21818;
+  transition: all 0.4s linear;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  #navigation #search-bar {
+    float: none;
+  }
+
+  #navigation a,
+  #navigation input[type="text"],
+  #navigation #search-bar button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  #search-bar label {
+    margin-right: 35px;
+  }
+}
+
+#hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./public/img/web.png");
+  height: 60%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  grid-column: 1;
+}
+
+#hero-text {
+  text-align: center;
+  color: #fff;
+}
+
+#hero-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border: none;
+  outline: 0;
+  color: #000;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s linear;
+  border-radius: 15px;
+}
+
+#hero-btn:hover {
+  background-color: #555;
+  color: #fff;
+  transition: all 0.4s linear;
+}
+
+@media screen and (max-width: 600px) {
+  #hero-img {
+    top: 80px;
+  }
+}
+
+#home {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  grid-column: 1;
+}
+
+.home-box {
+  border: 1px solid rebeccapurple;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-img {
+  width: 150px;
+  height: 150px;
+  background: lightblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.home-box h2,
+.home-box p {
+  margin: 10px;
+}
