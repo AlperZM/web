@@ -1,0 +1,50 @@
+<section id="frame">
+  <h1>Buttons</h1>
+  <button role="button" type="button" id="default" class="btn btn-default">Default</button>
+  <button role="button" type="button" id="btn-1" class="btn btn-1">Simple</button>
+  <button role="button" type="button" id="btn-2" class="btn btn-2">Shadowed</button>
+
+</section>
+
+<style>
+#frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px teal;
+}
+.btn {
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+#btn-1 {
+  border: none;
+  border-radius: 5px;
+  background: red;
+  color: #fff;
+  font-size: 16px;
+}
+#btn-1:hover {
+  background: blue;
+  transition: all 0.4s ease;
+}
+
+#btn-2 {
+  border: 1px solid green;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 blue;
+}
+#btn-2:hover {
+  background: blue;
+  border: 1px solid blue;
+  color: #fff;
+  box-shadow: 5px 5px 5px 0 green;
+}
+
+</style>
