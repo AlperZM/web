@@ -1,0 +1,57 @@
+<!-- Responsive Hamburger menu with no js 
+STILL IN PROGRESS
+-->
+<label>
+<input type="checkbox" id="menu-input" />
+	<span id="s1"></span>
+	<span id="s2"></span>
+	<span id="s3"></span>
+</label>
+
+
+<style>
+	input{
+		display: none;
+	}
+	label{
+		position: absolute;
+		top:10px;
+		left: 10px;
+		width: 50px;
+		height: 50px;
+		background: grey;
+		cursor: pointer;
+	}
+	span{
+		width: 40px;
+		height: 5px;
+		border-radius: 5px;
+		background: white;
+	}
+	#s1{
+		position: absolute;
+		top: 12px;
+		left: 5px;
+	}
+	#s2{
+		position: absolute;
+		top: 22px;
+		left: 5px;
+	}
+	#s3{
+		position: absolute;
+		top:32px;
+		left: 5px;
+	}
+	input:checked ~ #s2{
+		display: none;
+	}
+	input:checked ~ #s1{
+		transform: rotate(45deg);
+		top:22px;
+	}
+	input:checked ~ #s3{
+		transform: rotate(135deg);
+		top:22px;
+	}
+</style>
