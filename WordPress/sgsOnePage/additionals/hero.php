@@ -1,4 +1,0 @@
-<section id="hero">
-
-  
-</section>

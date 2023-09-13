@@ -1,1 +1,0 @@
-// footer for all site
