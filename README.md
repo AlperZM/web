@@ -7,3 +7,5 @@ SOURCE:
 https://developers.google.com/web?hl=tr   
 
 and next: https://web.dev/learn/html/attributes/
+<br/>
+https://youmightnotneedjquery.com/
