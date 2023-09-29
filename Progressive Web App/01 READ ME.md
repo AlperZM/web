@@ -1,2 +1,2 @@
 Learn progresive web app   
-source: https://web.dev/learn/pwa/progressive-web-apps/
+source: https://web.dev/learn/pwa/foundations/
