@@ -3,6 +3,8 @@ source: https://web.dev/learn/pwa/foundations/
 <br />
 https://web.dev/pwa-checklist/#:~:text=to%20cached%20content%20or%20an%20offline%20indicator%20as%20needed.-,is%20fully%20accessible
 <br />
+<br />
+https://developer.mozilla.org/en-US/docs/Web/CSS/env
 <h2>Resources</h2>
 <ul>
   <li>https://web.dev/learn/design/</li>
@@ -12,5 +14,5 @@ https://web.dev/pwa-checklist/#:~:text=to%20cached%20content%20or%20an%20offline
   <li>https://web.dev/vitals/</li>
   <li>https://www.youtube.com/watch?v=AMPKmh98XLY</li>
   <li>https://web.dev/accent-color/</li>
-  
+  <li>https://web.dev/learn/pwa/app-design/#resources</li>
 </ul>
