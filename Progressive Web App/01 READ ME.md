@@ -11,5 +11,6 @@ https://web.dev/pwa-checklist/#:~:text=to%20cached%20content%20or%20an%20offline
   <li>https://web.dev/one-line-layouts/</li>
   <li>https://web.dev/vitals/</li>
   <li>https://www.youtube.com/watch?v=AMPKmh98XLY</li>
-  <li></li>
+  <li>https://web.dev/accent-color/</li>
+  
 </ul>
