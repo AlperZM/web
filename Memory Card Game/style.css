@@ -1,0 +1,120 @@
+:root {
+	--first: #2c2c24;
+	--second: #b5c0c4;
+	--third: #3e442d;
+	--fourth: #b84901;
+}
+body {
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: rgb(44, 44, 36);
+	background: radial-gradient(
+		circle,
+		rgba(44, 44, 36, 1) 0%,
+		rgba(126, 152, 163, 1) 25%,
+		rgba(62, 68, 45, 1) 42%,
+		rgba(184, 73, 1, 1) 71%
+	);
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--second);
+}
+#game-board {
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	border: 2px solid var(--fourth);
+	border-radius: 5px;
+	box-shadow: 0 0 10px 8px var(--third);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.card {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 5px #000;
+	background: transparent;
+	perspective: 1000px;
+	transition: all 1s ease-out;
+	cursor: pointer;
+}
+.card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+	transform-style: preserve-3d;
+}
+.card-front,
+.card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.card-front {
+	background-color: transparent;
+	border-radius: 5px;
+}
+.card-back {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background: radial-gradient(
+		circle,
+		rgba(44, 44, 36, 1) 0%,
+		rgba(126, 152, 163, 1) 25%,
+		rgba(62, 68, 45, 1) 42%,
+		rgba(184, 73, 1, 1) 71%
+	);
+	transform: rotateY(180deg);
+	transition: transform 0.8s;
+}
+.hidden-figures {
+	font-size: 50px;
+}
+.is-flipped {
+	transform: rotateY(180deg);
+}
+#score-board {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	margin: -10px;
+}
+#reset {
+	width: 120px;
+	height: 40px;
+	background: radial-gradient(
+		circle,
+		rgba(44, 44, 36, 1) 0%,
+		rgba(126, 152, 163, 1) 25%,
+		rgba(62, 68, 45, 1) 42%,
+		rgba(184, 73, 1, 1) 71%
+	);
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 5px orangered;
+	transition: all 0.5s ease;
+}
+#reset:hover {
+	cursor: pointer;
+	background: gray;
+	transition: all 0.5s ease;
+}
+.disabled {
+	pointer-events: none;
+}
