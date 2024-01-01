@@ -1,0 +1,38 @@
+#text-input {
+  width: 80%;
+  height: 36px;
+  margin: 8px;
+  padding: 8px;
+  font-size: 16px;
+  caret-color: red;
+}
+
+#check-btn {
+  margin: 8px;
+  padding: 8px;
+  background: orange;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s linear;
+}
+
+#check-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px #000;
+  transition: all 0.5s linear;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  margin: 8px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: all 0.5s linear;
+}
