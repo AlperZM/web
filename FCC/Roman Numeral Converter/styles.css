@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: #3c4448;
+  color: #f9e9ad;
+}
+#convert-btn {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin: 8px;
+  color: #e48e4e;
+  background-color: #3c4448;
+  border: 1px dotted #f9e9ad;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 0px #f9e9ad;
+  transition: all 0.4s linear;
+}
+#convert-btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 8px 8px #f9e9ad;
+  transition: all 0.4s linear;
+}
+#output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  margin: 2rem;
+  border: 1px solid #f9e9ad;
+  border-radius: 5px;
+  padding: 1rem;
+  transition: all 0.4s linear;
+}
+.warning {
+  box-shadow: 0 0 10px 8px #952323;
+  background-color: #9f0d7f;
+  font-size: 2rem;
+  color: #f9e9ad;
+  transition: all 0.4s linear;
+}
+.accepted {
+  background-color: #cece5a;
+  color: #1d5b79;
+  font-size: 4rem;
+  box-shadow: 0 0 10px 0 #557c55;
+  transition: all 0.4s linear;
+}
